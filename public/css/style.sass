@@ -5,13 +5,36 @@ $fourth-color: #e3971e
 
 $text-color: #eee
 
-body
+body, .container
 	color: $text-color
+	padding: 0
+	margin: 0
+	font-family: Verdana, Geneva, Tahoma, sans-serif
+	font-size: 14px
+
+.container
+	height: 85vh
+
+nav
+	background-color: $third-color
+	height: 5vh
+	color: $text-color
+	list-style-type: none
+	display: flex
+	justify-content: flex-end
+	align-items: center
+
+nav li
+	padding: 0.5em
+
+nav li a
+	color: $text-color
+	text-decoration: none
+	margin-left: 0.3em
+
+nav .fa
+	color: $fourth-color
 
 main
 	background: linear-gradient($second-color, $first-color)
 	height: 100vh
-
-footer
-	a: $text-color
-	color: $text-color
