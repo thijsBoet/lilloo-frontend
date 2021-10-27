@@ -1,32 +1,29 @@
 {
 	"name": "lilloo-frontend",
 	"version": "0.0.1",
-	"description": "lilloo dating website frontend build in tailwind css",
-	"main": "index.js",
+	"description": "fronten dating website build in react, sass and bootstrap",
+	"main": "app.js",
 	"scripts": {
-		"build": "postcss tailwind.css -o dist/css/styles.css",
-		"watch": "postcss tailwind.css -o dist/css/styles.css --watch"
+		"watch": "sass --watch public/css/style.sass public/css/style.css "
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/thijsBoet/lilloo-frontend.git"
 	},
 	"keywords": [
-		"lilloo",
-		"tailwind",
-		"css",
-		"frontend"
+		"frontend",
+		"dating",
+		"react",
+		"sass",
+		"bootstrap"
 	],
-	"author": "Matthijs Boet",
+	"author": "matthijs boet",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/thijsBoet/lilloo-frontend/issues"
 	},
 	"homepage": "https://github.com/thijsBoet/lilloo-frontend#readme",
 	"dependencies": {
-		"autoprefixer": "^10.3.7",
-		"postcss": "^8.3.11",
-		"postcss-cli": "^9.0.1",
-		"tailwindcss": "^2.2.17"
+		"sass": "^1.43.4"
 	}
 }
