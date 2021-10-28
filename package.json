@@ -4,7 +4,8 @@
 	"description": "fronten dating website build in react, sass and bootstrap",
 	"main": "app.js",
 	"scripts": {
-		"watch": "sass --watch public/css/style.sass public/css/style.css "
+		"watch": "sass --watch public/css/style.sass public/css/style.css",
+		"build": "sass public/css/style.sass public/css/style.css",
 	},
 	"repository": {
 		"type": "git",
