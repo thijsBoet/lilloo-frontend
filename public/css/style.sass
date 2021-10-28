@@ -10,31 +10,63 @@ body, .container
 	padding: 0
 	margin: 0
 	font-family: Verdana, Geneva, Tahoma, sans-serif
-	font-size: 14px
-
-.container
-	height: 85vh
+	font-size: 10px
 
 nav
 	background-color: $third-color
-	height: 5vh
 	color: $text-color
+	height: 43px
+	font-size: 1.3em
 	list-style-type: none
 	display: flex
-	justify-content: flex-end
+	justify-content: space-evenly
 	align-items: center
+	input
+		width: 86px
+		border: 0px
+		border-radius: 100px
+		text-align: center
 
 nav li
-	padding: 0.5em
+	padding: 1em
 
 nav li a
 	color: $text-color
 	text-decoration: none
-	margin-left: 0.3em
 
-nav .fa
+nav span .fa
 	color: $fourth-color
+	margin-left: 0.5em
 
 main
 	background: linear-gradient($second-color, $first-color)
-	height: 100vh
+	height: calc(100vh - 43px)
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+
+h1
+	text-align: center
+
+.profile-pic-container .profile-pic
+
+	border-radius: 1000px
+	max-width: 200px
+	max-height: 200px
+
+.summary
+	margin-top: 1.5em
+	text-align: center
+
+ul
+	list-style-type: none
+	padding: 0
+	margin: 0
+
+.detail
+	font-style: italic
+
+.description
+	max-width: 700px
+	margin: 1.5em

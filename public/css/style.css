@@ -3,40 +3,77 @@ body, .container {
   padding: 0;
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
-}
-
-.container {
-  height: 85vh;
+  font-size: 10px;
 }
 
 nav {
   background-color: #661fed;
-  height: 5vh;
   color: #eee;
+  height: 43px;
+  font-size: 1.3em;
   list-style-type: none;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   align-items: center;
+}
+nav input {
+  width: 86px;
+  border: 0px;
+  border-radius: 100px;
+  text-align: center;
 }
 
 nav li {
-  padding: 0.5em;
+  padding: 1em;
 }
 
 nav li a {
   color: #eee;
   text-decoration: none;
-  margin-left: 0.3em;
 }
 
-nav .fa {
+nav span .fa {
   color: #e3971e;
+  margin-left: 0.5em;
 }
 
 main {
   background: linear-gradient(#217aeb, #d627aa);
-  height: 100vh;
+  height: calc(100vh - 43px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.profile-pic-container .profile-pic {
+  border-radius: 1000px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.summary {
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detail {
+  font-style: italic;
+}
+
+.description {
+  max-width: 700px;
+  margin: 1.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
